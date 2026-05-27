@@ -8,6 +8,7 @@ A lightweight macOS menu bar app that shows live per-component operational statu
 |---|---|
 | Anthropic | claude.ai, Claude Console, Claude API, Claude Code, Claude Cowork, Claude for Government |
 | Composio | v3 API, Tool Execution, Triggers V1/V2, Tool Search, Sandbox, Proxy, Auth providers, Connect MCP, CLI, Connections, Dashboard |
+| Buffer | Buffer Website, Web App, iOS App, Android App, Buffer API, API Developer Portal, Buffer MCP |
 
 Polls every **60 seconds** automatically. Click any service row to open its status page.
 
