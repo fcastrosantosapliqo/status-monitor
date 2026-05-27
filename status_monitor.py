@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Apliqo Status Monitor — per-component status for Anthropic and Composio.
+Apliqo Status Monitor — per-component status for Anthropic, Composio and Buffer.
 
 Usage:
   ./run.sh                  run the app
@@ -32,6 +32,12 @@ SERVICES = [
         "components_api": "https://status.composio.dev/components.json",
         "web": "https://status.composio.dev",
         "provider": "instatus",
+    },
+    {
+        "name": "Buffer",
+        "components_api": "https://status.buffer.com/api/v2/components.json",
+        "web": "https://status.buffer.com",
+        "provider": "statuspage",
     },
 ]
 
